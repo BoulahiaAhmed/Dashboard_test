@@ -11,6 +11,8 @@ import pandas as pd
 # Initialize the app (always the same for any Dash app)
 app = Dash(__name__)
 
+server = app.sever
+
 # App layout
 app.layout = html.Div([
     html.Div(children='Hello World')
